@@ -33,7 +33,7 @@ export default function Home() {
             </a>
           </div>
           <a
-            href="https://app.infinitechests.com"
+            href="https://infinite-chest-app.vercel.app/"
             className="group relative isolate overflow-hidden border border-[#8B5CF6] bg-[#8B5CF6] px-5 py-2 text-xs font-bold text-[#F5F7FF] shadow-[0_0_18px_rgba(139,92,246,0.5)] transition-transform hover:-translate-y-0.5 [clip-path:polygon(10px_0,100%_0,calc(100%-10px)_100%,0_100%)] sm:text-sm"
           >
             <span
@@ -77,7 +77,7 @@ export default function Home() {
             legendary hit and show the timeline who got blessed.
           </p>
           <a
-            href="https://app.infinitechests.com"
+            href="https://infinite-chest-app.vercel.app/"
             className="group relative isolate mt-2 w-fit overflow-hidden border border-[#8B5CF6] bg-[#8B5CF6] px-6 py-3 text-sm font-bold text-[#F5F7FF] shadow-[0_0_24px_rgba(139,92,246,0.45)] transition-all hover:-translate-y-0.5 hover:shadow-[0_0_32px_rgba(139,92,246,0.6)] [clip-path:polygon(10px_0,100%_0,calc(100%-10px)_100%,0_100%)]"
           >
             <span
@@ -201,7 +201,7 @@ export default function Home() {
             Join Discord
           </a>
           <a
-            href="https://x.com"
+            href="https://x.com/infinite_chests"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/10 bg-[#FFFFFF]/[0.05] px-5 py-3 text-sm font-semibold shadow-[0_8px_24px_rgba(0,0,0,0.2)] transition-all hover:-translate-y-0.5 hover:text-[#22D3EE] [clip-path:polygon(8px_0,100%_0,calc(100%-8px)_100%,0_100%)]"
@@ -216,7 +216,7 @@ export default function Home() {
           Ready to test your luck? Open your first chest now.
         </p>
         <a
-          href="https://app.infinitechests.com"
+          href="https://infinite-chest-app.vercel.app/"
           className="group relative isolate inline-block overflow-hidden border border-[#8B5CF6] bg-[#8B5CF6] px-8 py-3 text-sm font-semibold text-[#F5F7FF] shadow-[0_0_26px_rgba(139,92,246,0.45)] transition-transform hover:-translate-y-0.5 [clip-path:polygon(10px_0,100%_0,calc(100%-10px)_100%,0_100%)]"
         >
           <span
@@ -232,7 +232,7 @@ export default function Home() {
 
       <footer className="w-full px-5 py-6">
         <nav className="flex flex-wrap items-center justify-center gap-3 text-sm text-[#A3A8C2]">
-          <a href="https://app.infinitechests.com" className="transition-colors hover:text-[#F5F7FF]">
+          <a href="https://infinite-chest-app.vercel.app/" className="transition-colors hover:text-[#F5F7FF]">
             App
           </a>
           <a href="#" className="transition-colors hover:text-[#F5F7FF]">
@@ -253,7 +253,7 @@ export default function Home() {
             Discord
           </a>
           <a
-            href="https://x.com"
+            href="https://x.com/infinite_chests"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-[#F5F7FF]"
