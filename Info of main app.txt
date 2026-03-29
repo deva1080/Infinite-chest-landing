@@ -1,0 +1,78 @@
+Brief de Landing — Infinite Chests
+Objetivo: convertir tráfico frío de X/Discord en usuarios que hagan click en Launch App (app.infinitechests.com).
+Audiencia: crypto degens, gamers onchain, coleccionistas de drops raros.
+Tono y mensaje
+Voz de marca: degen, directa, con actitud, sin sonar corporativo.
+Promesa principal: “Open chests. Pull rares. Flex your luck.”
+CTA principal: Launch App
+CTAs secundarios: View Drops, Join Discord, Follow on X
+Estructura de secciones (orden ideal)
+Hero (above the fold)
+Headline corta y potente.
+Subheadline de 1 línea (qué es y por qué importa).
+2 CTAs: Launch App (primario) + View Drops (secundario).
+Visual central: chest animado + glow + partículas.
+How it Works (3 pasos)
+1) Connect wallet
+2) Open chests
+3) Get rare loot / build collection
+Drops & Rarity
+Grid de items con niveles (Common / Rare / Epic / Legendary).
+Mostrar “chase items” (los más aspiracionales).
+Why Infinite Chests
+Bullet points claros: fast gameplay, collectible drops, rewards loop, social flex.
+Social Proof / Metrics
+Ejemplos: chests opened, active players, total drops.
+Logos de partners/community si existen.
+Community / Degen Hub
+Bloque Discord + X con CTA a comunidad.
+Final CTA strip
+Mensaje corto + botón grande Launch App.
+Footer
+Links: App, Docs (si hay), Terms, Privacy, Socials.
+Estilo visual
+Dirección: dark, high-contrast, neon accents, arcade/loot vibe.
+Feeling: “crypto casino + gaming lootbox”, premium pero agresivo.
+Layout: limpio, secciones aireadas, cards con bordes suaves y glow sutil.
+Iconografía: minimal gamer/crypto (cofres, gemas, rayos, rarity badges).
+Paleta de colores (propuesta)
+Background base: #0A0A0F
+Surface: #131320
+Primary accent (neon purple): #8B5CF6
+Secondary accent (cyan): #22D3EE
+Highlight (pink punch): #EC4899
+Text primary: #F5F7FF
+Text muted: #A3A8C2
+Success/rare cue: #34D399
+Warning/legendary cue: #F59E0B
+Tipografía
+Headlines: bold, condensada o display (estilo gaming/tech).
+Body: sans limpia y legible.
+Escala sugerida:
+H1: 56–72
+H2: 36–44
+Body: 16–18
+Labels/buttons: 14–16 semibold
+Componentes UI clave
+Botones grandes con glow suave en hover.
+Cards de rarity con gradientes por nivel.
+Pills/badges (Legendary, New Drop, Hot).
+Navbar sticky con CTA persistente.
+Mini ticker opcional (“recent pulls”) para sensación de actividad.
+Motion / microinteracciones
+Hover en chest con “pulse glow”.
+Floating particles muy sutiles en hero.
+Cards con lift de 4-8px al hover.
+Entradas con fade + slide corto (200–300ms).
+Evitar animaciones pesadas que bajen FPS.
+Copy base (listo para usar)
+Hero H1: Infinite Chests
+Hero Sub: Open chests, chase rare drops, and flex your luck onchain.
+Primary CTA: Launch App
+Secondary CTA: View Drops
+Final CTA line: Ready to test your luck? Open your first chest now.
+Reglas UX importantes
+CTA Launch App visible en todo momento (navbar + hero + final).
+No saturar de texto; scroll rápido y visual.
+Mobile-first: hero y botones perfectos en 360px.
+Performance prioritaria: imágenes optimizadas, first load liviano.
