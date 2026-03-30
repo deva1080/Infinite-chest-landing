@@ -31,6 +31,14 @@ export default function Home() {
             <a href="#tokenomics" className="px-1 py-1 transition-colors hover:text-[#F5F7FF]">
               Tokenomics
             </a>
+            <a
+              href="https://infinite-chest.gitbook.io/infinite-chest"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-1 py-1 transition-colors hover:text-[#F5F7FF]"
+            >
+              Docs
+            </a>
           </div>
           <a
             href="https://infinite-chest-app.vercel.app/"
@@ -96,52 +104,94 @@ export default function Home() {
 
       <section id="drops" className="w-full py-10 text-center">
         <h2 className="font-heading mb-8 text-3xl font-bold sm:text-4xl">Drops &amp; Rarity</h2>
-        <div className="grid grid-cols-2 gap-4 text-left lg:grid-cols-4">
-
-          <article className="relative transition-transform duration-200 hover:-translate-y-1">
-            <Image src="/dropscards/Common.png" alt="" width={800} height={240} className="h-auto w-full" />
-            <div className="absolute inset-0 z-10 flex items-center justify-between px-4 py-3 sm:px-5">
-              <div>
-                <p className="text-[10px] font-semibold tracking-[0.18em] text-[#C1C5D5] uppercase sm:text-xs">Common</p>
-                <p className="mt-1 text-sm font-semibold text-[#E0E3EE] sm:text-lg">Rust Key</p>
-              </div>
-              <span className="text-2xl sm:text-3xl">🔑</span>
+        <div className="grid grid-cols-1 items-end gap-x-5 gap-y-7 sm:grid-cols-2 lg:grid-cols-[0.92fr_1.08fr_1.18fr_1fr]">
+          <article className="group relative mx-auto w-full max-w-[15rem] sm:max-w-[16rem] lg:max-w-none">
+            <div className="absolute inset-x-[18%] bottom-5 h-12 rounded-full bg-[#D18A5C]/18 blur-3xl transition-all duration-500 group-hover:opacity-100 group-hover:blur-[42px]" />
+            <div className="drop-float drop-float-fast relative h-[15rem] sm:h-[17rem] lg:h-[18rem]">
+              <Image
+                src="/drops/key card full.webp"
+                alt="Rust Key common drop"
+                fill
+                sizes="(min-width: 1024px) 18vw, (min-width: 640px) 38vw, 78vw"
+                className="object-bottom object-contain drop-shadow-[0_10px_26px_rgba(255,200,120,0.2)] transition-transform duration-700 ease-out group-hover:scale-[1.3]"
+              />
             </div>
           </article>
 
-          <article className="relative transition-transform duration-200 hover:-translate-y-1">
-            <Image src="/dropscards/Rare.png" alt="" width={800} height={240} className="h-auto w-full" />
-            <div className="absolute inset-0 z-10 flex items-center justify-between px-4 py-3 sm:px-5">
-              <div>
-                <p className="text-[10px] font-semibold tracking-[0.18em] text-[#65F2C3] uppercase sm:text-xs">Rare</p>
-                <p className="mt-1 text-sm font-semibold text-white sm:text-lg">Neon Gem</p>
+          <article className="group relative mx-auto w-full max-w-[16rem] sm:max-w-[17rem] lg:max-w-none">
+            <div className="absolute inset-x-[14%] bottom-6 h-14 rounded-full bg-[#C14CFF]/18 blur-3xl transition-all duration-500 group-hover:opacity-100 group-hover:blur-[46px]" />
+            <div className="relative h-[18rem] sm:h-[20rem] lg:h-[22rem] transition-transform duration-500 group-hover:-translate-y-2">
+              <Image
+                src="/drops/Epic bg.webp"
+                alt=""
+                fill
+                sizes="(min-width: 1024px) 22vw, (min-width: 640px) 42vw, 82vw"
+                className="object-contain transition-transform duration-700 ease-out group-hover:scale-[1.15]"
+              />
+              <div className="drop-float absolute inset-0">
+                <Image
+                  src="/drops/Sword.webp"
+                  alt="Void Blade epic drop"
+                  fill
+                  sizes="(min-width: 1024px) 22vw, (min-width: 640px) 42vw, 82vw"
+                  className="object-contain drop-shadow-[0_12px_34px_rgba(193,76,255,0.32)] transition-transform duration-700 ease-out scale-[0.85] group-hover:-translate-y-3 group-hover:scale-[1.105]"
+                />
               </div>
-              <span className="text-2xl sm:text-3xl">💎</span>
             </div>
           </article>
 
-          <article className="relative drop-shadow-[0_0_18px_rgba(225,72,203,0.15)] transition-all duration-200 hover:-translate-y-1 hover:drop-shadow-[0_0_28px_rgba(225,72,203,0.25)]">
-            <Image src="/dropscards/Epic.png" alt="" width={800} height={240} className="h-auto w-full" />
-            <div className="absolute inset-0 z-10 flex items-center justify-between px-4 py-3 sm:px-5">
-              <div>
-                <p className="text-[10px] font-semibold tracking-[0.18em] text-[#FF7DDD] uppercase sm:text-xs">Epic</p>
-                <p className="mt-1 text-sm font-semibold text-white sm:text-lg">Void Blade</p>
+          <article className="group relative mx-auto w-full max-w-[17rem] sm:max-w-[18rem] lg:max-w-none">
+            <div className="absolute inset-x-[10%] bottom-6 h-16 rounded-full bg-[#F6B13F]/18 blur-3xl transition-all duration-500 group-hover:opacity-100 group-hover:blur-[50px]" />
+            <div className="relative h-[20rem] sm:h-[22rem] lg:h-[24rem] transition-transform duration-500 group-hover:-translate-y-2">
+              <Image
+                src="/drops/leyendari place older.webp"
+                alt=""
+                fill
+                sizes="(min-width: 1024px) 24vw, (min-width: 640px) 44vw, 84vw"
+                className="object-contain transition-transform duration-700 ease-out scale-[1.15] group-hover:scale-[1.3225]"
+              />
+              <div className="drop-float drop-float-slow absolute inset-0">
+                <Image
+                  src="/drops/fenix leyend.webp"
+                  alt="Phoenix Relic legendary drop"
+                  fill
+                  sizes="(min-width: 1024px) 24vw, (min-width: 640px) 44vw, 84vw"
+                  className="object-contain drop-shadow-[0_12px_34px_rgba(246,177,63,0.34)] transition-transform duration-700 ease-out scale-[1.15] group-hover:-translate-y-3 group-hover:scale-[1.495]"
+                />
               </div>
-              <span className="text-2xl sm:text-3xl">🗡️</span>
             </div>
           </article>
 
-          <article className="relative drop-shadow-[0_0_20px_rgba(218,165,32,0.18)] transition-all duration-200 hover:-translate-y-1 hover:drop-shadow-[0_0_30px_rgba(218,165,32,0.3)]">
-            <Image src="/dropscards/Legendary.png" alt="" width={800} height={240} loading="eager" className="h-auto w-full" />
-            <div className="absolute inset-0 z-10 flex items-center justify-between px-4 py-3 sm:px-5">
-              <div>
-                <p className="text-[10px] font-semibold tracking-[0.18em] text-[#F8C66D] uppercase sm:text-xs">Legendary</p>
-                <p className="mt-1 text-sm font-semibold text-white sm:text-lg">Phoenix Relic (Chase)</p>
+          <article className="group relative mx-auto w-full max-w-[16rem] sm:max-w-[17rem] lg:max-w-none">
+            <div className="absolute inset-x-[15%] bottom-5 h-14 rounded-full bg-[#4DE5D6]/16 blur-3xl transition-all duration-500 group-hover:opacity-100 group-hover:blur-[46px]" />
+            <div className="relative h-[17rem] sm:h-[19rem] lg:h-[20.5rem] transition-transform duration-500 group-hover:-translate-y-2">
+              <div className="absolute inset-0 origin-bottom transition-transform duration-700 ease-out scale-[1.05] group-hover:scale-[1.3125]">
+                <Image
+                  src="/drops/Rare base.webp"
+                  alt=""
+                  fill
+                  sizes="(min-width: 1024px) 21vw, (min-width: 640px) 40vw, 80vw"
+                  className="object-bottom object-contain"
+                />
+                <Image
+                  src="/drops/Rare full text.webp"
+                  alt=""
+                  fill
+                  sizes="(min-width: 1024px) 21vw, (min-width: 640px) 40vw, 80vw"
+                  className="object-bottom object-contain"
+                />
               </div>
-              <span className="text-2xl sm:text-3xl">🔥</span>
+              <div className="drop-float drop-float-delay absolute inset-x-0 top-0 bottom-[35%]">
+                <Image
+                  src="/drops/Rare nft.webp"
+                  alt="Neon Gem rare drop"
+                  fill
+                  sizes="(min-width: 1024px) 21vw, (min-width: 640px) 40vw, 80vw"
+                  className="object-contain drop-shadow-[0_10px_28px_rgba(77,229,214,0.28)] transition-transform duration-700 ease-out scale-[1.3] group-hover:-translate-y-4 group-hover:scale-[1.69]"
+                />
+              </div>
             </div>
           </article>
-
         </div>
       </section>
 

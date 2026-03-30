@@ -218,3 +218,39 @@ body::after {
     transition: none;
   }
 }
+
+@keyframes dropFloat {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+.drop-float {
+  animation: dropFloat 5.6s ease-in-out infinite;
+  will-change: transform;
+}
+
+.drop-float-fast {
+  animation-duration: 4.8s;
+}
+
+.drop-float-slow {
+  animation-duration: 6.8s;
+}
+
+.drop-float-delay {
+  animation-delay: 0.9s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .drop-float,
+  .drop-float-fast,
+  .drop-float-slow,
+  .drop-float-delay {
+    animation: none;
+  }
+}
